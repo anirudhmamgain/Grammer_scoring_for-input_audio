@@ -1,5 +1,3 @@
-# Grammer_scoring_for-input_audio
-
 # Grammar Scoring Engine — Technical Report
 
 ## 1. Objective

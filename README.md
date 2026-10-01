@@ -223,15 +223,9 @@ The final ensemble combines:
 
 The ensemble prediction is:
 
-\[
-\hat{y}
-=
-0.48\hat{y}_{DeBERTa}
-+
-0.46\hat{y}_{WC+MPNet}
-+
-0.06\hat{y}_{Ling}
-\]
+$$
+\hat{y} = 0.48\,\hat{y}_{\text{DeBERTa}} + 0.46\,\hat{y}_{\text{WC+MPNet}} + 0.06\,\hat{y}_{\text{Ling}}
+$$
 
 All component predictions are clipped to the valid grammar-score range `[0, 5]`.
 
